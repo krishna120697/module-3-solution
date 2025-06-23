@@ -1,5 +1,6 @@
 .section-box {
-  background-color: #e0e0e0;
+  background-color: #e0e0e0; /* light gray background */
   padding: 20px;
-  height: 1000px;
+  height: 1000px; /* makes the section tall enough for scrolling */
+  margin-bottom: 20px;
 }
