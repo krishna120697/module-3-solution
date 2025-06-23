@@ -1,6 +1,24 @@
+/* Make the section visually distinct */
 .section-box {
-  background-color: #e0e0e0; /* light gray background */
+  background-color: #d3d3d3; /* Light gray background for visibility */
   padding: 20px;
-  height: 1000px; /* makes the section tall enough for scrolling */
+  height: 1000px; /* Tall enough to require scrolling */
   margin-bottom: 20px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+/* Ensure menu items in mobile dropdown fill the full width */
+.navbar-collapse .nav > li > a {
+  background-color: #f8f8f8; /* Optional: distinguish menu background */
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Improve visibility of toggle button and menu on mobile */
+.navbar-toggle {
+  border: none;
+}
+.navbar-toggle .icon-bar {
+  background-color: #333;
 }
